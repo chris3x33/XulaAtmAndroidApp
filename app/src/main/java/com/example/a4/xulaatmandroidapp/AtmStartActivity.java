@@ -34,5 +34,7 @@ public class AtmStartActivity extends AppCompatActivity {
     }
 
     public void runOpenAccount(View view) {
+        Intent intent = new Intent(context, NewUserActivity.class);
+        startActivity(intent);
     }
 }
